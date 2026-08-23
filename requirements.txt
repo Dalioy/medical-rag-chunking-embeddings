@@ -1,0 +1,7 @@
+pypdf
+google-genai
+qdrant-client
+scikit-learn
+tqdm
+flashrank
+sentence-transformers

@@ -1,0 +1,85 @@
+# ================================
+# Python
+# ================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python caches / test artifacts
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+
+# ================================
+# Virtual Environments
+# ================================
+.venv/
+venv/
+env/
+ENV/
+
+
+# ================================
+# Environment / Secrets
+# ================================
+.env
+.env.*
+!.env.example
+
+
+# ================================
+# Jupyter
+# ================================
+.ipynb_checkpoints/
+
+
+# ================================
+# IDE / Editor
+# ================================
+.vscode/
+.idea/
+
+
+# ================================
+# OS
+# ================================
+.DS_Store
+Thumbs.db
+
+
+# ================================
+# Raw Source PDFs / Input Data
+# Keep directory, ignore contents
+# ================================
+data/*
+!data/.gitkeep
+
+
+# ================================
+# Generated Pipeline Artifacts
+# ================================
+output/*
+!output/.gitkeep
+
+
+# ================================
+# Local Qdrant Vector Database
+# Generated locally by the pipeline
+# ================================
+qdrantdb/*
+!qdrantdb/.gitkeep
+
+
+# ================================
+# Local Model / Retrieval Caches
+# ================================
+flashrank_cache/
+
+
+# ================================
+# Logs
+# ================================
+*.log
